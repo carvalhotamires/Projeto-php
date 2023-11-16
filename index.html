@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Eleve-se com arte</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    
+    <body>
+        <div class="secao">
+            <img class="imagem-logotipo" src="logo.png" alt="Eleve-se com arte">
+            <p>
+                <a href="#sobre"> SOBRE</a>
+                <a href="#produtos">PRODUTOS</a>
+                <a href="#contato">FALE CONOSCO</a>
+            </p>
+        </div>
+        <div class="secao" id="sobre">
+            <h1>Ateliê Eleve-se com Arte: Onde a Madeira Ganha Vida e Estilo</h1>
+            <h2>Rosalia Carvalho| Professora de Artesanato</h2>
+            <img class="imagem-banner" src="artigos.jpeg" alt="produtos">
+            <p><span>Bem-vindo ao Ateliê Eleve-se com Arte, onde a madeira é mais do que um material –  é expressão em forma de técnicas que exibe beleza cor, e o  rústico Clássico surge  dando estilo em cada peça.  Aqui, não apenas construímos peças em madeira para decoração e utilidades domésticas, mas também personalizamos peças únicas com valor emotivo.</span></p>
+        </div>
+        <div class="secao secao-destaque" id="produtos">
+            <h3>PROCESSO CRIATIVO: </h3>
+            <h4>Estilo e Personalidade</h4>
+            <p>No Ateliê Eleve-se com Arte, acreditamos na fusão de funcionalidade e estética. Nossa fundadora, Rosalia Carvalho, é uma artista apaixonada que traz um toque especial a cada peça que criamos. Com um compromisso inabalável com a originalidade, nosso ateliê se destaca por modelos que refletem não apenas habilidade técnica, mas também uma narrativa visual única. </p>
+            <img src="Caixa mdf 04.jpg" alt="Caixa de madeira">
+            <h4>Modelos Exclusivos</h4>
+            <p>A nossa satisfação implica em  modelos exclusivos e únicos, assegurando que cada cliente leve para casa uma obra que é verdadeiramente especial.  Nossas peças são mais do que simples objetos; são extensões do nosso compromisso com a arte e a individualidade.</p>
+            <img src="pinceis.jpeg" alt="pinceis">
+        </div>
+        
+        <div class="secao" id="contato">
+            <h3>Contato</h3>
+            <form action="/submit_form.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="servico">Serviço:</label>
+                <select id="servico" name="servico" required>
+                    <option value="ORCAMENTO">Orçamento</option>
+                    <option value="instalacao">Cursos</option>
+                    <option value="consultoria">Consultoria</option>
+                    <option value="encomenda">Encomenda</option>
+                </select>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <p>Siga nossas redes sociais:</p>
+            <p><span>@eleve_se.com.arte
+                elevesecomarte@gmail.com
+            </span></p>
+            <p>Nosso telefone: <span>(83) 99954-3912</span></p>
+            <p>Atendimento Online</p>
+            <p><span>Encomendas para todo o Brasil</span></p>
+           
+        </div>
+    </body>
+</html>
